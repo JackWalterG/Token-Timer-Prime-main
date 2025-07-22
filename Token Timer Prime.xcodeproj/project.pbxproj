@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAC0B2F22E2EC7FD00F7F171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC0B2DC2E2EC7FA00F7F171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC0B2E32E2EC7FA00F7F171;
+			remoteInfo = "Token Timer Prime";
+		};
+		AAC0B2FC2E2EC7FD00F7F171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC0B2DC2E2EC7FA00F7F171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC0B2E32E2EC7FA00F7F171;
+			remoteInfo = "Token Timer Prime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAC0B2E42E2EC7FA00F7F171 /* Token Timer Prime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Token Timer Prime.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC0B2F12E2EC7FD00F7F171 /* Token Timer PrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Token Timer PrimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC0B2FB2E2EC7FD00F7F171 /* Token Timer PrimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Token Timer PrimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AAC0B2E62E2EC7FA00F7F171 /* Token Timer Prime */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Token Timer Prime";
+			sourceTree = "<group>";
+		};
+		AAC0B2F42E2EC7FD00F7F171 /* Token Timer PrimeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Token Timer PrimeTests";
+			sourceTree = "<group>";
+		};
+		AAC0B2FE2E2EC7FD00F7F171 /* Token Timer PrimeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Token Timer PrimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC0B2E12E2EC7FA00F7F171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC0B2EE2E2EC7FD00F7F171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC0B2F82E2EC7FD00F7F171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC0B2DB2E2EC7FA00F7F171 = {
+			isa = PBXGroup;
+			children = (
+				AAC0B2E62E2EC7FA00F7F171 /* Token Timer Prime */,
+				AAC0B2F42E2EC7FD00F7F171 /* Token Timer PrimeTests */,
+				AAC0B2FE2E2EC7FD00F7F171 /* Token Timer PrimeUITests */,
+				AAC0B2E52E2EC7FA00F7F171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC0B2E52E2EC7FA00F7F171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC0B2E42E2EC7FA00F7F171 /* Token Timer Prime.app */,
+				AAC0B2F12E2EC7FD00F7F171 /* Token Timer PrimeTests.xctest */,
+				AAC0B2FB2E2EC7FD00F7F171 /* Token Timer PrimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC0B2E32E2EC7FA00F7F171 /* Token Timer Prime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC0B3052E2EC7FD00F7F171 /* Build configuration list for PBXNativeTarget "Token Timer Prime" */;
+			buildPhases = (
+				AAC0B2E02E2EC7FA00F7F171 /* Sources */,
+				AAC0B2E12E2EC7FA00F7F171 /* Frameworks */,
+				AAC0B2E22E2EC7FA00F7F171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAC0B2E62E2EC7FA00F7F171 /* Token Timer Prime */,
+			);
+			name = "Token Timer Prime";
+			packageProductDependencies = (
+			);
+			productName = "Token Timer Prime";
+			productReference = AAC0B2E42E2EC7FA00F7F171 /* Token Timer Prime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAC0B2F02E2EC7FD00F7F171 /* Token Timer PrimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC0B3082E2EC7FD00F7F171 /* Build configuration list for PBXNativeTarget "Token Timer PrimeTests" */;
+			buildPhases = (
+				AAC0B2ED2E2EC7FD00F7F171 /* Sources */,
+				AAC0B2EE2E2EC7FD00F7F171 /* Frameworks */,
+				AAC0B2EF2E2EC7FD00F7F171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC0B2F32E2EC7FD00F7F171 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAC0B2F42E2EC7FD00F7F171 /* Token Timer PrimeTests */,
+			);
+			name = "Token Timer PrimeTests";
+			packageProductDependencies = (
+			);
+			productName = "Token Timer PrimeTests";
+			productReference = AAC0B2F12E2EC7FD00F7F171 /* Token Timer PrimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAC0B2FA2E2EC7FD00F7F171 /* Token Timer PrimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC0B30B2E2EC7FD00F7F171 /* Build configuration list for PBXNativeTarget "Token Timer PrimeUITests" */;
+			buildPhases = (
+				AAC0B2F72E2EC7FD00F7F171 /* Sources */,
+				AAC0B2F82E2EC7FD00F7F171 /* Frameworks */,
+				AAC0B2F92E2EC7FD00F7F171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC0B2FD2E2EC7FD00F7F171 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAC0B2FE2E2EC7FD00F7F171 /* Token Timer PrimeUITests */,
+			);
+			name = "Token Timer PrimeUITests";
+			packageProductDependencies = (
+			);
+			productName = "Token Timer PrimeUITests";
+			productReference = AAC0B2FB2E2EC7FD00F7F171 /* Token Timer PrimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC0B2DC2E2EC7FA00F7F171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					AAC0B2E32E2EC7FA00F7F171 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AAC0B2F02E2EC7FD00F7F171 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AAC0B2E32E2EC7FA00F7F171;
+					};
+					AAC0B2FA2E2EC7FD00F7F171 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AAC0B2E32E2EC7FA00F7F171;
+					};
+				};
+			};
+			buildConfigurationList = AAC0B2DF2E2EC7FA00F7F171 /* Build configuration list for PBXProject "Token Timer Prime" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC0B2DB2E2EC7FA00F7F171;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AAC0B2E52E2EC7FA00F7F171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC0B2E32E2EC7FA00F7F171 /* Token Timer Prime */,
+				AAC0B2F02E2EC7FD00F7F171 /* Token Timer PrimeTests */,
+				AAC0B2FA2E2EC7FD00F7F171 /* Token Timer PrimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC0B2E22E2EC7FA00F7F171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC0B2EF2E2EC7FD00F7F171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC0B2F92E2EC7FD00F7F171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC0B2E02E2EC7FA00F7F171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC0B2ED2E2EC7FD00F7F171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC0B2F72E2EC7FD00F7F171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAC0B2F32E2EC7FD00F7F171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC0B2E32E2EC7FA00F7F171 /* Token Timer Prime */;
+			targetProxy = AAC0B2F22E2EC7FD00F7F171 /* PBXContainerItemProxy */;
+		};
+		AAC0B2FD2E2EC7FD00F7F171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC0B2E32E2EC7FA00F7F171 /* Token Timer Prime */;
+			targetProxy = AAC0B2FC2E2EC7FD00F7F171 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA89077A2E2F4BD6005D6968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA89077B2E2F4BD6005D6968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAC0B3032E2EC7FD00F7F171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAC0B3042E2EC7FD00F7F171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC0B3062E2EC7FD00F7F171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Token-Timer-Prime-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeWalters.Token-Timer-Prime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAC0B3072E2EC7FD00F7F171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Token-Timer-Prime-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeWalters.Token-Timer-Prime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAC0B3092E2EC7FD00F7F171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeWalters.Token-Timer-PrimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Token Timer Prime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Token Timer Prime";
+			};
+			name = Debug;
+		};
+		AAC0B30A2E2EC7FD00F7F171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeWalters.Token-Timer-PrimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Token Timer Prime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Token Timer Prime";
+			};
+			name = Release;
+		};
+		AAC0B30C2E2EC7FD00F7F171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeWalters.Token-Timer-PrimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Token Timer Prime";
+			};
+			name = Debug;
+		};
+		AAC0B30D2E2EC7FD00F7F171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DQQBYKLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WakeWalters.Token-Timer-PrimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Token Timer Prime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC0B2DF2E2EC7FA00F7F171 /* Build configuration list for PBXProject "Token Timer Prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC0B3032E2EC7FD00F7F171 /* Debug */,
+				AAC0B3042E2EC7FD00F7F171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC0B3052E2EC7FD00F7F171 /* Build configuration list for PBXNativeTarget "Token Timer Prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC0B3062E2EC7FD00F7F171 /* Debug */,
+				AAC0B3072E2EC7FD00F7F171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC0B3082E2EC7FD00F7F171 /* Build configuration list for PBXNativeTarget "Token Timer PrimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC0B3092E2EC7FD00F7F171 /* Debug */,
+				AAC0B30A2E2EC7FD00F7F171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC0B30B2E2EC7FD00F7F171 /* Build configuration list for PBXNativeTarget "Token Timer PrimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC0B30C2E2EC7FD00F7F171 /* Debug */,
+				AAC0B30D2E2EC7FD00F7F171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC0B2DC2E2EC7FA00F7F171 /* Project object */;
+}
