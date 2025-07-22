@@ -1,0 +1,304 @@
+{
+  "source": "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/CombinedTimerWalletView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enter Passcode",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Timer Early?",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Passcode",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confirm",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter your passcode to add tokens to your wallet",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Timer",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "This will return %lld tokens to your wallet and redeem %lld tokens.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Token Wallet",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "tokens available",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "total time",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Tokens to Use",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "Begin Timer",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select tokens to start timer",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "-",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "+",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Tokens Available",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 213
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add tokens to your wallet to start using the timer",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "Timer Active",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "Timer Paused",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "Time Remaining",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resume Timer",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 258
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause Timer",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 258
+        }
+      },
+      {
+        "comment": "",
+        "key": "Started: %lld tokens",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 282
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min total",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Timer Early",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 336
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Early?",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 298
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 315
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "tokens returned",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 308
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 321
+        }
+      },
+      {
+        "comment": "",
+        "key": "tokens redeemed",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 325
+        }
+      }
+    ]
+  },
+  "version": 1
+}

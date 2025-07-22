@@ -1,0 +1,208 @@
+{
+  "source": "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/ActiveTimerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Timer Early?",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Session Error",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "The current timer session appears to be corrupted. This may happen due to unexpected app behavior.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reset Session",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Active Session",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "It looks like you don't have an active timer session. Return to the timer tab to start a new session.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "Time Remaining",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Timer Paused",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "Leisure Time Active",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grace Period - All tokens will be returned if ended early",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Original: %lld tokens (%@)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resume Timer",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause Timer",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Timer Early",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Early?",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grace period: All %lld tokens will be returned",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 155
+        }
+      },
+      {
+        "comment": "",
+        "key": "Returns %lld tokens, redeems %lld tokens",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Timer",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grace period: All %lld tokens will be returned to your wallet.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "This will return %lld tokens to your wallet and redeem %lld tokens.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paused",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remaining",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 227
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,175 @@
+{
+  "" : {
+    "const-values" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token Timer Prime-master.swiftconstvalues",
+    "dependencies" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token Timer Prime-master.d",
+    "diagnostics" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token Timer Prime-master.dia",
+    "emit-module-dependencies" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token Timer Prime-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token Timer Prime-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token Timer Prime-master.swiftdeps"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Helpers/DateFormatter+Extensions.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/DateFormatter+Extensions.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/DateFormatter+Extensions.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/DateFormatter+Extensions.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Helpers/HapticFeedback.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/HapticFeedback.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/HapticFeedback.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/HapticFeedback.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Models/AppSettings.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AppSettings.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AppSettings.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AppSettings.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Models/ScheduledToken.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledToken.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledToken.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledToken.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Models/TimerSession.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TimerSession.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TimerSession.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TimerSession.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Models/Token.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Models/Wallet.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Wallet.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Wallet.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Wallet.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Models/WeeklyUsage.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WeeklyUsage.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WeeklyUsage.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WeeklyUsage.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/StateManagement/AppStateManager.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AppStateManager.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AppStateManager.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AppStateManager.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/StateManagement/NotificationService.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/NotificationService.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/NotificationService.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/NotificationService.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/StateManagement/PersistenceService.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/PersistenceService.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/PersistenceService.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/PersistenceService.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/StateManagement/ScheduledTokenService.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledTokenService.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledTokenService.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledTokenService.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/StateManagement/SessionRecommendationService.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/SessionRecommendationService.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/SessionRecommendationService.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/SessionRecommendationService.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/StateManagement/TimerService.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TimerService.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TimerService.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TimerService.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Token_Timer_PrimeApp.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token_Timer_PrimeApp.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token_Timer_PrimeApp.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/Token_Timer_PrimeApp.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Components/ButtonStyles.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ButtonStyles.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ButtonStyles.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ButtonStyles.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Components/ToastView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ToastView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ToastView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ToastView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Debug/DebugMenuView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/DebugMenuView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/DebugMenuView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/DebugMenuView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/ActiveTimerView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ActiveTimerView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ActiveTimerView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ActiveTimerView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/CombinedTimerWalletView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/CombinedTimerWalletView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/CombinedTimerWalletView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/CombinedTimerWalletView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/CombinedWalletTimerView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/CombinedWalletTimerView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/CombinedWalletTimerView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/CombinedWalletTimerView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/ContentView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/TokenSelectionView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TokenSelectionView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TokenSelectionView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/TokenSelectionView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Main/WalletView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WalletView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WalletView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WalletView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Onboarding/OnboardingView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/OnboardingView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Scheduling/AddScheduledTokenView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AddScheduledTokenView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AddScheduledTokenView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/AddScheduledTokenView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Scheduling/EditScheduledTokenView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/EditScheduledTokenView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/EditScheduledTokenView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/EditScheduledTokenView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Scheduling/FillToMaxTokensView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/FillToMaxTokensView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/FillToMaxTokensView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/FillToMaxTokensView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Scheduling/ScheduledTokensView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledTokensView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledTokensView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/ScheduledTokensView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Settings/PasscodeSetupSheet.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/PasscodeSetupSheet.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/PasscodeSetupSheet.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/PasscodeSetupSheet.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Settings/SettingsView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Stats/WeeklyStatsView.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WeeklyStatsView.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WeeklyStatsView.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/WeeklyStatsView.o"
+  },
+  "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/build/Token Timer Prime.build/Release-iphoneos/Token Timer Prime.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

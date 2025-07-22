@@ -1,0 +1,408 @@
+{
+  "source": "/Users/jackgrovespersonal/Documents/Token-Timer-Prime-main/Token Timer Prime/Views/Settings/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 298
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 282
+        }
+      },
+      {
+        "comment": "",
+        "key": "Change Passcode",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Require passcode to add tokens to wallet",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Passcode Protection",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Display",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Time Format",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose how time is displayed throughout the app.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Time Format",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grace Period",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Time period where ending early returns all tokens.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grace Period",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "1 minute",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "2 minutes",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "3 minutes",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "5 minutes",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "None",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use dark appearance throughout the app.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dark Mode",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Automatically pause timer when app is inactive.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 168
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto-Pause",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "After:",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto-Pause Duration",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "5 minutes",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 158
+        }
+      },
+      {
+        "comment": "",
+        "key": "10 minutes",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 159
+        }
+      },
+      {
+        "comment": "",
+        "key": "15 minutes",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "20 minutes",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "30 minutes",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Usage Goals",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set to 0 to disable goal tracking. Goals help you monitor your leisure time usage.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "Help & Support",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "Replay the getting started tutorial to learn about all features.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 248
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show Tutorial",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "Developer",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 259
+        }
+      },
+      {
+        "comment": "",
+        "key": "Access developer and debugging tools.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug Menu",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 266
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 299
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "No goal",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 323
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 323
+        }
+      },
+      {
+        "comment": "",
+        "key": "Change Passcode",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 356
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set Up Passcode",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 356
+        }
+      },
+      {
+        "comment": "",
+        "key": "Update Passcode",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set Passcode",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Passcode",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 362
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Passcode",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confirm Passcode",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 369
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 390
+        }
+      }
+    ]
+  },
+  "version": 1
+}

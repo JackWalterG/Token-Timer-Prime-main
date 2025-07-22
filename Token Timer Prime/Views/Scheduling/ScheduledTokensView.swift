@@ -41,11 +41,9 @@ struct ScheduledTokensView: View {
                         .foregroundColor(.blue)
                     }
                 }
-            }
-            .sheet(isPresented: $showingAddSchedule) {
-                Text("Add Schedule View - Temporarily Disabled")
-                    .padding()
-            }
+            }        .sheet(isPresented: $showingAddSchedule) {
+            AddScheduledTokenView(appState: appState)
+        }
             .sheet(isPresented: $showingFillToMax) {
                 FillToMaxTokensView(appState: appState)
             }
@@ -199,8 +197,7 @@ struct ScheduledTokenCard: View {
                 .stroke(scheduledToken.isActive ? Color.blue.opacity(0.3) : Color.gray.opacity(0.2), lineWidth: 1)
         )
         .sheet(isPresented: $showingEditView) {
-            Text("Edit View - Temporarily Disabled")
-                .padding()
+            EditScheduledTokenView(appState: appState, scheduledToken: scheduledToken)
         }
         .alert("Delete Schedule", isPresented: $showingDeleteAlert) {
             Button("Cancel", role: .cancel) { }
