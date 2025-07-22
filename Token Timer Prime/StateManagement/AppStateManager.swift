@@ -19,6 +19,9 @@ class AppStateManager: ObservableObject {
     @Published var selectedTokens: Int = 0
     @Published var scheduledTokens: [ScheduledToken] = []
     
+    // Toast notifications
+    let toastManager = ToastManager()
+    
     // MARK: - Services
     private let persistenceService = PersistenceService()
     private let timerService = TimerService()
@@ -98,9 +101,13 @@ class AppStateManager: ObservableObject {
     // MARK: - Timer Management
     
     func startTimer() {
-        guard wallet.canRedeem(selectedTokens) else { return }
+        guard wallet.canRedeem(selectedTokens) else { 
+            toastManager.show("Not enough tokens!", type: .error)
+            return 
+        }
         if wallet.redeemTokens(selectedTokens) {
             _ = timerService.startTimer(with: selectedTokens)
+            toastManager.show("Timer started! Enjoy your leisure time.", type: .success)
             selectedTokens = 0
             saveData()
         }
@@ -117,15 +124,23 @@ class AppStateManager: ObservableObject {
             weeklyUsage.addUsage(minutes: result.redeemedTokens * Token.minutesPerToken)
         }
         
+        if result.returnedTokens > 0 {
+            toastManager.show("\(result.returnedTokens) token\(result.returnedTokens > 1 ? "s" : "") returned", type: .success)
+        } else {
+            toastManager.show("Timer ended", type: .info)
+        }
+        
         saveData()
     }
     
     func pauseTimer() {
         timerService.pauseTimer()
+        toastManager.show("Timer paused", type: .warning)
     }
     
     func resumeTimer() {
         timerService.resumeTimer()
+        toastManager.show("Timer resumed", type: .info)
     }
     
     func fastForwardTimer() {
@@ -141,6 +156,7 @@ class AppStateManager: ObservableObject {
     func addTokensToWallet(_ count: Int) {
         wallet.addTokens(count)
         saveData()
+        toastManager.show("\(count) token\(count > 1 ? "s" : "") added!", type: .success)
     }
     
     func addTokensToWalletUpToMax(_ count: Int) -> Int {
@@ -304,6 +320,8 @@ extension AppStateManager: TimerServiceDelegate {
         )
         weeklyUsage.addSession(sessionRecord)
         weeklyUsage.addUsage(minutes: session.originalTokens * Token.minutesPerToken)
+        
+        toastManager.show("🎉 Timer completed! Great job!", type: .success)
         
         saveData()
         notificationService.cancelNotifications()

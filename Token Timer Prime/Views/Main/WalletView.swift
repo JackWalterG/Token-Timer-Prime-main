@@ -16,41 +16,11 @@ struct WalletView: View {
     
     var body: some View {
         VStack(spacing: 30) {
-            // Wallet Header
-            VStack(spacing: 10) {
-                Text("Token Wallet")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                
-                Text("\(appState.wallet.totalTokens)")
-                    .font(.system(size: 60, weight: .bold, design: .rounded))
-                    .foregroundColor(.blue)
-                
-                Text("tokens available")
-                    .font(.headline)
-                    .foregroundColor(.secondary)
+            if appState.wallet.totalTokens == 0 {
+                improvedEmptyState
+            } else {
+                walletContentView
             }
-            
-            // Add Tokens Button
-            Button(action: {
-                if appState.settings.isPasscodeEnabled {
-                    showingPasscodePrompt = true
-                } else {
-                    showingAddTokens = true
-                }
-            }) {
-                HStack {
-                    Image(systemName: "plus.circle.fill")
-                    Text("Add Tokens")
-                }
-                .font(.headline)
-                .foregroundColor(.white)
-                .padding()
-                .background(Color.green)
-                .cornerRadius(12)
-            }
-            
-            Spacer()
         }
         .padding()
         .alert("Enter Passcode", isPresented: $showingPasscodePrompt) {
@@ -73,6 +43,118 @@ struct WalletView: View {
             AddTokensSheet(appState: appState, tokensToAdd: $tokensToAdd)
         }
     }
+    
+    // MARK: - Content Views
+    
+    @ViewBuilder
+    private var walletContentView: some View {
+        VStack(spacing: 30) {
+            // Enhanced Wallet Header
+            VStack(spacing: 15) {
+                Text("Token Wallet")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                
+                // Animated token display
+                ZStack {
+                    Circle()
+                        .fill(Color.blue.opacity(0.1))
+                        .frame(width: 140, height: 140)
+                    
+                    VStack(spacing: 8) {
+                        Text("\(appState.wallet.totalTokens)")
+                            .font(.system(size: 48, weight: .bold, design: .rounded))
+                            .foregroundColor(.blue)
+                            .animation(.spring(), value: appState.wallet.totalTokens)
+                        
+                        Text("tokens")
+                            .font(.subheadline)
+                            .fontWeight(.medium)
+                            .foregroundColor(.secondary)
+                            .textCase(.uppercase)
+                            .tracking(1)
+                    }
+                }
+                
+                // Time equivalent
+                Text("≈ \(appState.formatTotalTime(minutes: appState.wallet.totalTokens * Token.minutesPerToken))")
+                    .font(.title3)
+                    .foregroundColor(.green)
+                    .fontWeight(.semibold)
+            }
+            
+            // Add Tokens Button
+            Button(action: {
+                HapticFeedback.medium.trigger()
+                if appState.settings.isPasscodeEnabled {
+                    showingPasscodePrompt = true
+                } else {
+                    showingAddTokens = true
+                }
+            }) {
+                HStack(spacing: 12) {
+                    Image(systemName: "plus.circle.fill")
+                        .font(.title2)
+                    Text("Add Tokens")
+                        .fontWeight(.semibold)
+                }
+            }
+            .buttonStyle(PrimaryButtonStyle(backgroundColor: .green))
+            
+            Spacer()
+        }
+    }
+    
+    @ViewBuilder
+    private var improvedEmptyState: some View {
+        VStack(spacing: 30) {
+            Spacer()
+            
+            // Animated illustration
+            ZStack {
+                Circle()
+                    .fill(Color.blue.opacity(0.1))
+                    .frame(width: 140, height: 140)
+                
+                VStack(spacing: 12) {
+                    Image(systemName: "timer.circle")
+                        .font(.system(size: 50))
+                        .foregroundColor(.blue)
+                    
+                    Text("0")
+                        .font(.system(size: 32, weight: .bold, design: .rounded))
+                        .foregroundColor(.blue)
+                }
+            }
+            
+            VStack(spacing: 15) {
+                Text("No Tokens Yet")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                
+                Text("Add tokens to start timing your leisure activities. Each token gives you 15 minutes of guilt-free relaxation time.")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(4)
+                    .padding(.horizontal, 20)
+            }
+            
+            // Primary action
+            Button("Add Your First Tokens") {
+                HapticFeedback.medium.trigger()
+                if appState.settings.isPasscodeEnabled {
+                    showingPasscodePrompt = true
+                } else {
+                    showingAddTokens = true
+                }
+            }
+            .buttonStyle(PrimaryButtonStyle(backgroundColor: .green))
+            .padding(.horizontal, 30)
+            
+            Spacer()
+        }
+    }
 }
 
 struct AddTokensSheet: View {
@@ -91,19 +173,28 @@ struct AddTokensSheet: View {
                 HStack(spacing: 20) {
                     Button(action: {
                         if tokenCount > 1 {
-                            tokenCount -= 1
+                            HapticFeedback.light.trigger()
+                            withAnimation(.spring()) {
+                                tokenCount -= 1
+                            }
                         }
                     }) {
                         Image(systemName: "minus.circle.fill")
                             .font(.largeTitle)
-                            .foregroundColor(.red)
+                            .foregroundColor(tokenCount > 1 ? .red : .gray)
                     }
                     
                     Text("\(tokenCount)")
                         .font(.system(size: 40, weight: .bold, design: .rounded))
+                        .foregroundColor(.blue)
+                        .frame(minWidth: 80)
+                        .animation(.spring(), value: tokenCount)
                     
                     Button(action: {
-                        tokenCount += 1
+                        HapticFeedback.light.trigger()
+                        withAnimation(.spring()) {
+                            tokenCount += 1
+                        }
                     }) {
                         Image(systemName: "plus.circle.fill")
                             .font(.largeTitle)
@@ -113,17 +204,15 @@ struct AddTokensSheet: View {
                 
                 Text("Time value: \(appState.formatTotalTime(minutes: tokenCount * Token.minutesPerToken))")
                     .font(.headline)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.green)
+                    .fontWeight(.semibold)
                 
                 Button("Add \(tokenCount) Token\(tokenCount > 1 ? "s" : "")") {
+                    HapticFeedback.success.trigger()
                     appState.addTokensToWallet(tokenCount)
                     dismiss()
                 }
-                .font(.headline)
-                .foregroundColor(.white)
-                .padding()
-                .background(Color.blue)
-                .cornerRadius(12)
+                .buttonStyle(PrimaryButtonStyle(backgroundColor: .blue))
                 
                 Spacer()
             }
@@ -132,6 +221,7 @@ struct AddTokensSheet: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Cancel") {
+                        HapticFeedback.light.trigger()
                         dismiss()
                     }
                 }

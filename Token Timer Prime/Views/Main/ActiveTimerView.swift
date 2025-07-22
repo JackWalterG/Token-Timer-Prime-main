@@ -129,6 +129,7 @@ struct ActiveTimerView: View {
             HStack(spacing: 20) {
                 // Pause/Resume Button
                 Button(session.isPaused ? "Resume Timer" : "Pause Timer") {
+                    HapticFeedback.medium.trigger()
                     appState.recordUserActivity()
                     if session.isPaused {
                         appState.resumeTimer()
@@ -136,12 +137,10 @@ struct ActiveTimerView: View {
                         appState.pauseTimer()
                     }
                 }
-                .font(.headline)
-                .foregroundColor(.white)
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(session.isPaused ? Color.green : Color.orange)
-                .cornerRadius(12)
+                .buttonStyle(PrimaryButtonStyle(
+                    backgroundColor: session.isPaused ? .green : .orange,
+                    isEnabled: true
+                ))
             }
             
             // End Timer Early Section
@@ -166,15 +165,14 @@ struct ActiveTimerView: View {
                 }
                 
                 Button("End Timer Early") {
+                    HapticFeedback.warning.trigger()
                     appState.recordUserActivity()
                     showingEndConfirmation = true
                 }
-                .font(.headline)
-                .foregroundColor(.white)
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.red)
-                .cornerRadius(12)
+                .buttonStyle(PrimaryButtonStyle(
+                    backgroundColor: .red,
+                    isEnabled: true
+                ))
             }
         }
         .padding()
@@ -197,11 +195,53 @@ struct ActiveTimerView: View {
     
     @ViewBuilder
     private func linearTimerView(session: TimerSession) -> some View {
-        // Time remaining in large format with seconds
-        Text(appState.formatTimerCountdown(totalSeconds: session.totalRemainingSeconds))
-            .font(.system(size: 60, weight: .bold, design: .rounded))
-            .foregroundColor(session.isPaused ? .orange : .blue)
-            .monospacedDigit()
+        enhancedTimerView(session: session)
+    }
+    
+    @ViewBuilder
+    private func enhancedTimerView(session: TimerSession) -> some View {
+        ZStack {
+            // Background circle
+            Circle()
+                .stroke(Color.gray.opacity(0.2), lineWidth: 12)
+                .frame(width: 220, height: 220)
+            
+            // Progress circle
+            Circle()
+                .trim(from: 0, to: Double(session.totalMinutes - session.remainingMinutes) / Double(session.totalMinutes))
+                .stroke(
+                    session.isPaused ? Color.orange : Color.blue,
+                    style: StrokeStyle(lineWidth: 12, lineCap: .round)
+                )
+                .frame(width: 220, height: 220)
+                .rotationEffect(.degrees(-90))
+                .animation(.linear(duration: 0.5), value: session.remainingMinutes)
+            
+            // Timer text
+            VStack(spacing: 8) {
+                Text(appState.formatTimerCountdown(totalSeconds: session.totalRemainingSeconds))
+                    .font(.system(size: 36, weight: .bold, design: .rounded))
+                    .foregroundColor(session.isPaused ? .orange : .blue)
+                    .monospacedDigit()
+                
+                Text(session.isPaused ? "Paused" : "Remaining")
+                    .font(.caption)
+                    .fontWeight(.medium)
+                    .foregroundColor(.secondary)
+                    .textCase(.uppercase)
+                    .tracking(1)
+            }
+            
+            // Subtle glow effect when active
+            if !session.isPaused {
+                Circle()
+                    .stroke(Color.blue.opacity(0.3), lineWidth: 2)
+                    .frame(width: 240, height: 240)
+                    .scaleEffect(1.0)
+                    .opacity(0.6)
+                    .animation(.easeInOut(duration: 2).repeatForever(autoreverses: true), value: session.remainingMinutes)
+            }
+        }
     }
     
     // MARK: - Error Handling

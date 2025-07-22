@@ -104,6 +104,7 @@ struct ContentView: View {
         }
         .accentColor(.blue)
         .preferredColorScheme(appState.settings.isDarkModeEnabled ? .dark : .light)
+        .toast(manager: appState.toastManager)
         .onAppear {
             if !appState.settings.hasCompletedOnboarding {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
